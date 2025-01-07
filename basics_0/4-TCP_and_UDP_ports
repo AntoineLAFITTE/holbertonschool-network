@@ -1,6 +1,9 @@
 #!/bin/bash
 
-# Display listening ports with PID and program name
+# Display active Internet and UNIX domain listening sockets with PID/Program name
+echo "Active Internet connections (only servers)"
+sudo ss -tulnp | awk 'NR==1 || /LISTEN/'
 
-ss -tulnp
+echo "Active UNIX domain sockets (only servers)"
+sudo ss -xlnp | awk 'NR==1 || /LISTEN/'
 
