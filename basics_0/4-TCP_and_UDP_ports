@@ -2,5 +2,5 @@
 
 # Display listening ports with PID and program name
 echo "Active Internet connections (only servers)"
-sudo ss -tulnp | awk 'NR==1 || /LISTEN/'
+ss -tulnp | awk 'NR==1 || /LISTEN/'
 
