@@ -48,4 +48,4 @@ Step 6: Return of the Response.
 The application server sends the response back through the web server and load balancer to the browser. The browser renders the content for the user.
 
 
-To conclud this process shows how is the complexity behind a simple action such as typing a URL. Understanding it helps you prepare for technical interviews and gives a clearer view into how webinfrastructure works nowadays.
+To conclude this process shows how is the complexity behind a simple action such as typing a URL. Understanding it helps you prepare for technical interviews and gives a clearer view into how webinfrastructure works nowadays.
